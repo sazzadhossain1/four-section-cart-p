@@ -1,0 +1,117 @@
+.home_parent_div {
+  background: rgba(0, 0, 0, 0.9)
+    url("../../accets//heroSectionPhoto/heroSectionPhoto.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  height: 100vh;
+}
+.yourEmotionMatter_photo {
+  max-width: 150px;
+}
+.home_icon_div {
+  max-width: 40%;
+  margin: auto;
+  font-size: 22px;
+  text-decoration: underline;
+  text-align: right;
+
+  padding: 100px;
+}
+.media_link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  color: white;
+  margin-top: 12px;
+}
+.icon_style {
+  color: white;
+  margin: 5px;
+}
+
+@media screen and (max-width: 1536px) {
+  .home_icon_div {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .home_icon_div {
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .home_icon_div {
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .home_icon_div {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .home_icon_div {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .home_icon_div {
+    max-width: 100%;
+    font-size: 18px;
+  }
+  .media_link {
+    margin-left: -90px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .home_icon_div {
+    max-width: 100%;
+    font-size: 16px;
+  }
+  .media_link {
+    margin-left: -90px;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .yourEmotionMatter_photo {
+    width: 80px;
+  }
+  .home_icon_div {
+    font-size: 14px;
+    padding: 0;
+  }
+  .media_link {
+    margin-left: 0px;
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .yourEmotionMatter_photo {
+    width: 70px;
+  }
+  .home_icon_div {
+    font-size: 12px;
+    padding: 0;
+  }
+  .media_link {
+    margin-left: 0px;
+    gap: 6px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .yourEmotionMatter_photo {
+    width: 60px;
+  }
+  .home_icon_div {
+    font-size: 10px;
+    padding: 0;
+  }
+  .media_link {
+    margin-left: 0px;
+    gap: 5px;
+  }
+}

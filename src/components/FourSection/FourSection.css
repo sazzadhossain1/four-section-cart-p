@@ -1,0 +1,30 @@
+.four_section_parent_div {
+  background-color: #f7f5f5;
+  padding: 20px;
+}
+.why_i_do {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.four_section_grid_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+}
+.four_section_cart_p {
+  text-align: left;
+  height: calc(100% - 40px);
+}
+
+.tiffany_J_p {
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 30px;
+  font-size: 18px;
+}

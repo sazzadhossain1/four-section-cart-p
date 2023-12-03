@@ -1,0 +1,29 @@
+.three_section_h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.three_section_p {
+  font-size: 18px;
+}
+
+/* ---------- */
+.three_section_parent_div {
+  padding: 50px;
+  width: 75%;
+  margin: auto;
+}
+.three_section_child_div {
+  text-align: left;
+  margin-top: 35px;
+}
+.three_section_child_div p {
+  line-height: 35px;
+}
+.tiffany_email {
+  color: blue;
+}
+.tiffany_j {
+  font-size: 19px;
+  margin-top: 5px;
+}
