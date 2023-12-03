@@ -11,20 +11,38 @@
 .four_section_grid_div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
+
+  gap: 10px;
   width: 85%;
   margin: auto;
   margin-top: 50px;
 }
 .four_section_cart_p {
   text-align: left;
-  height: calc(100% - 40px);
+  background-color: rgb(238, 237, 237);
+  padding: 25px 35px;
+  border-radius: 10px;
+  font-size: 19px;
 }
 
 .tiffany_J_p {
-  width: 75%;
+  width: 80%;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
   line-height: 30px;
-  font-size: 18px;
+  font-size: 19px;
+  text-align: left;
+  background-color: rgb(238, 237, 237);
+  padding: 25px 40px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1536px) {
+  .four_section_grid_div {
+    width: 95%;
+  }
+  .tiffany_J_p {
+    width: 90%;
+  }
 }

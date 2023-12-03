@@ -1,50 +1,85 @@
 .home_parent_div {
-  background: rgba(0, 0, 0, 0.9)
-    url("../../accets//heroSectionPhoto/heroSectionPhoto.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-blend-mode: darken;
-  height: 100vh;
+  background-color: rgb(197, 237, 253);
 }
 .yourEmotionMatter_photo {
   max-width: 150px;
+  margin-left: 10px;
 }
-.home_icon_div {
-  max-width: 40%;
-  margin: auto;
-  font-size: 22px;
-  text-decoration: underline;
-  text-align: right;
 
-  padding: 100px;
-}
-.media_link {
-  display: flex;
+.home_icon_grid_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 25px;
-  color: white;
-  margin-top: 12px;
+  max-width: 90%;
+  margin: auto;
+  margin-top: -60px;
+
+  padding: 50px 0px;
 }
+
+.home_unleash_p {
+  font-size: 44px;
+  text-align: left;
+}
+.tiffany_photo {
+  max-width: 70%;
+  border: 5px solid black;
+  margin: auto;
+}
+
 .icon_style {
-  color: white;
+  color: black;
   margin: 5px;
 }
 
 @media screen and (max-width: 1536px) {
   .home_icon_div {
-    max-width: 50%;
+    max-width: 100%;
+  }
+  .tiffany_photo {
+    max-width: 75%;
   }
 }
+
 @media screen and (max-width: 1300px) {
-  .home_icon_div {
-    max-width: 60%;
+  .home_icon_grid_div {
+    grid-template-columns: 1fr;
+  }
+
+  .home_unleash_p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tiffany_photo {
+    max-width: 100%;
   }
 }
+@media screen and (max-width: 1280px) {
+  .home_unleash_p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tiffany_photo {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .home_icon_div {
     max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home_unleash_p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tiffany_photo {
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 950px) {
@@ -52,11 +87,45 @@
     max-width: 80%;
   }
 }
+
 @media screen and (max-width: 850px) {
   .home_icon_div {
     max-width: 100%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .home_unleash_p {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tiffany_photo {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 712px) {
+  .home_unleash_p {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tiffany_photo {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .home_icon_div {
+    max-width: 100%;
+    font-size: 18px;
+  }
+  .media_link {
+    margin-left: -120px;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .home_icon_div {
     max-width: 100%;
@@ -66,6 +135,22 @@
     margin-left: -90px;
   }
 }
+@media screen and (max-width: 600px) {
+  .home_unleash_p {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tiffany_photo {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 580px) {
+  .home_parent_div {
+  }
+}
+
 @media screen and (max-width: 470px) {
   .home_icon_div {
     max-width: 100%;
@@ -76,6 +161,7 @@
     gap: 10px;
   }
 }
+
 @media screen and (max-width: 470px) {
   .yourEmotionMatter_photo {
     width: 80px;
@@ -89,19 +175,33 @@
     gap: 8px;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 384px) {
+  .home_unleash_p {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tiffany_photo {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
   .yourEmotionMatter_photo {
     width: 70px;
   }
-  .home_icon_div {
-    font-size: 12px;
-    padding: 0;
+  .home_unleash_p {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
-  .media_link {
-    margin-left: 0px;
-    gap: 6px;
+
+  .tiffany_photo {
+    max-width: 100%;
   }
 }
+
 @media screen and (max-width: 350px) {
   .yourEmotionMatter_photo {
     width: 60px;
@@ -113,5 +213,16 @@
   .media_link {
     margin-left: 0px;
     gap: 5px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .home_unleash_p {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tiffany_photo {
+    max-width: 100%;
   }
 }

@@ -1,0 +1,20 @@
+.sixthSection_parent_div {
+  background-color: #eee;
+  padding: 10px;
+}
+.sixthSection_child-div {
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+}
+.sixthSection-p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.sixthSection_tiffany_p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.sixthSection_why_because {
+  font-size: 22px;
+}

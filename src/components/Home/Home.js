@@ -1,19 +1,14 @@
 import React from "react";
 import "./Home.css";
 import yourEmotionMatter from "../../accets/yourEmotionMatter.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-  faTiktok,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
-import { faCopyright } from "@fortawesome/free-regular-svg-icons";
+
 import TwoSection from "../TwoSection/TwoSection";
 import ThreeSection from "../ThreeSection/ThreeSection";
 import SectionFour from "../FourSection/SectionFour";
+import FifthSection from "../FifthSection/FifthSection";
+
+import tiffanyPhoto from "../../accets/heroSectionPhoto/tiffanyPhoto.jpg";
+import SixthSection from "../SixthSection/SixthSection";
 
 const Home = () => {
   return (
@@ -24,66 +19,20 @@ const Home = () => {
           src={yourEmotionMatter}
           alt=""
         />
-
-        <div className="home_icon_div">
-          <Link
-            className="media_link"
-            target="_blank"
-            to="https://www.linkedin.com/in/youremotionsmatter/"
-          >
-            <FontAwesomeIcon className="icon_style" icon={faLinkedin} />
-            <p>https://www.linkedin.com/in/youremotionsmatter/</p>
-          </Link>
-
-          <Link
-            className="media_link"
-            target="_blank"
-            to="https://www.facebook.com/youremotionsmatter"
-          >
-            <FontAwesomeIcon className="icon_style" icon={faFacebook} />
-            <p>https://www.facebook.com/youremotionsmatter</p>
-          </Link>
-
-          <Link
-            className="media_link"
-            target="_blank"
-            to="https://www.tiktok.com/@youremotionsmatter"
-          >
-            <FontAwesomeIcon className="icon_style" icon={faTiktok} />
-            <p>https://www.tiktok.com/@youremotionsmatter</p>
-          </Link>
-
-          <Link
-            className="media_link"
-            target="_blank"
-            to="https://www.instagram.com/yemotionsmatter/"
-          >
-            <FontAwesomeIcon className="icon_style" icon={faInstagram} />
-            <p>https://www.instagram.com/yemotionsmatter/</p>
-          </Link>
-
-          <Link
-            className="media_link"
-            target="_blank"
-            to="https://twitter.com/Yemotionsmatter"
-          >
-            <FontAwesomeIcon className="icon_style" icon={faTwitter} />
-            <p>https://twitter.com/Yemotionsmatter</p>
-          </Link>
-
-          <Link
-            className="media_link"
-            target="_blank"
-            to="https://www.clubhouse.com/@yemotionsmatter"
-          >
-            <FontAwesomeIcon className="icon_style" icon={faCopyright} />
-            <p>https://www.clubhouse.com/@yemotionsmatter</p>
-          </Link>
+        <div className="home_icon_grid_div">
+          <p className="home_unleash_p">
+            Unleash Your Hero Within. <br /> Embrace Your Worth, Stand Tall,{" "}
+            <br /> and Remember, You Matter Regardless.
+          </p>
+          <img className="tiffany_photo" src={tiffanyPhoto} alt="" />
         </div>
       </div>
-      <TwoSection></TwoSection>
+
+      {/* <TwoSection></TwoSection>
       <ThreeSection></ThreeSection>
       <SectionFour></SectionFour>
+      <FifthSection></FifthSection>
+      <SixthSection></SixthSection> */}
     </div>
   );
 };

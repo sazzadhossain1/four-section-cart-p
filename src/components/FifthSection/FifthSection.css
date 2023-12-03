@@ -1,0 +1,38 @@
+.fifth_section_parent_div {
+  background-color: rgb(255, 247, 236);
+  padding: 30px;
+}
+.testimonials {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.fifth_section_grid_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  width: 75%;
+  margin: auto;
+}
+.testimonial_one_parent_div {
+  text-align: left;
+}
+.testimonial_two_parent_div {
+  text-align: left;
+}
+.testimonial_three_parent_div {
+  text-align: left;
+}
+.testimonial_p {
+  font-size: 20px;
+
+  margin-top: 30px;
+  font-weight: 500;
+}
+.testimonial_blank_div {
+  background-color: black;
+  height: 2px;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
