@@ -1,32 +1,50 @@
-.three_section_main_div {
-  background-color: #eee;
-}
-
 .three_section_h4 {
-  font-size: 40px;
+  font-size: 33px;
   font-weight: 500;
-  margin-bottom: 10px;
+  max-width: 80%;
+
+  margin-left: 60px;
 }
 .three_section_p {
-  font-size: 19px;
+  font-size: 17px;
+  margin-bottom: 10px;
 }
 
 /* ---------- */
 .three_section_parent_div {
   padding: 50px;
-  width: 75%;
+  max-width: 100%;
   margin: auto;
 }
 .three_section_child_div {
   display: grid;
+
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   text-align: left;
   margin-top: 35px;
+  background-color: #ebebff;
+  padding: 50px 30px;
+}
+.three_section_child_second_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+  background-color: rgb(235, 235, 235);
+
+  padding: 50px 30px;
+}
+.three_section_p_div {
+  max-width: 90%;
 }
 .your_support_div {
-  text-align: left;
+  text-align: center;
+  margin: auto;
   margin-top: 35px;
+  max-width: 85%;
+  padding: 20px 0px;
 }
 .three_section_child_div p {
   line-height: 35px;
@@ -41,4 +59,73 @@
 .tiffany_j {
   font-size: 19px;
   margin-top: 5px;
+}
+
+@media screen and (max-width: 1536px) {
+  .three_section_h4 {
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 100%;
+  }
+  .three_section_parent_div {
+    padding: 50px;
+    width: 100%;
+    margin: auto;
+  }
+  .three_section_child_div {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .three_section_h4 {
+    margin-left: 0px;
+  }
+  .three_section_parent_div {
+    padding: 50px;
+    width: 100%;
+    margin: auto;
+  }
+  .three_section_child_div {
+    grid-template-columns: 1fr;
+  }
+  .three_section_child_second_div {
+    grid-template-columns: 1fr;
+  }
+  .your_support_div {
+    max-width: 100%;
+    padding: 20px 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .three_section_h4 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .three_section_h4 {
+    font-size: 25px;
+    margin-left: 0px;
+  }
+  .three_section_p {
+    font-size: 16px;
+  }
+  .three_section_last_p {
+    font-size: 16px;
+  }
+  .tiffany_email {
+    display: inline-block;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .your_support_div {
+    max-width: 100%;
+    padding: 5px 15px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 280px) {
+  .tiffany_email {
+    font-size: 13px;
+  }
 }

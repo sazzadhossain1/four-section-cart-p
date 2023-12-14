@@ -9,6 +9,7 @@ import FifthSection from "../FifthSection/FifthSection";
 
 import tiffanyPhoto from "../../accets/heroSectionPhoto/tiffanyPhoto.jpg";
 import SixthSection from "../SixthSection/SixthSection";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -20,18 +21,25 @@ const Home = () => {
           alt=""
         />
         <div className="home_icon_grid_div">
-          <p className="home_unleash_p">
-            Unleash Your Hero Within. <br /> Embrace Your Worth, Stand Tall,{" "}
-            <br /> and Remember, You Matter Regardless.
-          </p>
+          <div className="heme_Unleash_div">
+            <p className="home_unleash_p">
+              Unleash Your Hero Within. <br /> Embrace Your Worth, Stand Tall,{" "}
+              <br /> and Remember, You Matter Regardless.
+            </p>
+            <Link target="_blank" to="https://stan.store/youremotionsmatter">
+              <button className="home_start_btn">
+                Start Winning In Life Now
+              </button>
+            </Link>
+          </div>
           <img className="tiffany_photo" src={tiffanyPhoto} alt="" />
         </div>
       </div>
 
       <TwoSection></TwoSection>
-      {/* <ThreeSection></ThreeSection>
+      <ThreeSection></ThreeSection>
       <SectionFour></SectionFour>
-      <FifthSection></FifthSection>
+      {/* <FifthSection></FifthSection>
       <SixthSection></SixthSection> */}
     </div>
   );

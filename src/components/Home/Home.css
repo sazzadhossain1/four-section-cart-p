@@ -1,9 +1,11 @@
 .home_parent_div {
-  background-color: rgb(197, 237, 253);
+  /* background-color: rgb(197, 237, 253); */
+  background-color: #ebebff;
+  height: 75vh;
 }
 .yourEmotionMatter_photo {
-  max-width: 150px;
-  margin-left: 10px;
+  max-width: 170px;
+  margin-left: 50px;
 }
 
 .home_icon_grid_div {
@@ -12,11 +14,20 @@
   align-items: center;
   max-width: 90%;
   margin: auto;
-  margin-top: -60px;
-
+  margin-top: -120px;
   padding: 50px 0px;
 }
+.heme_Unleash_div {
+  text-align: left;
+}
 
+.home_start_btn {
+  background-color: blue;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
 .home_unleash_p {
   font-size: 44px;
   text-align: left;
@@ -42,6 +53,9 @@
 }
 
 @media screen and (max-width: 1300px) {
+  .home_parent_div {
+    height: 200vh;
+  }
   .home_icon_grid_div {
     grid-template-columns: 1fr;
   }
@@ -53,9 +67,17 @@
 
   .tiffany_photo {
     max-width: 100%;
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 1280px) {
+  .yourEmotionMatter_photo {
+    margin-left: 10px;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+
   .home_unleash_p {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -66,13 +88,33 @@
   }
 }
 
+@media screen and (max-width: 1150px) and (max-height: 719px) {
+  .home_parent_div {
+    height: 190vh;
+  }
+}
 @media screen and (max-width: 1100px) {
   .home_icon_div {
     max-width: 70%;
   }
 }
 
+@media screen and (max-width: 1050px) and (max-height: 719px) {
+  .home_parent_div {
+    height: 180vh;
+  }
+}
 @media screen and (max-width: 1024px) {
+  .yourEmotionMatter_photo {
+    margin-left: 10px;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+
+  .home_parent_div {
+    height: 190vh;
+  }
   .home_unleash_p {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -82,7 +124,46 @@
     max-width: 100%;
   }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+  .home_parent_div {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1024px) and (max-height: 707px) {
+  .home_parent_div {
+    height: 185vh;
+  }
+}
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .home_parent_div {
+    height: 215vh;
+  }
+}
+
+@media screen and (max-width: 950px) and (max-height: 719px) {
+  .home_parent_div {
+    height: 170vh;
+  }
+  .home_icon_div {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 912px) and (max-height: 1368px) {
+  .home_parent_div {
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 912px) and (max-height: 719px) {
+  .yourEmotionMatter_photo {
+    margin-left: 10px;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+
+  .home_parent_div {
+    height: 165vh;
+  }
   .home_icon_div {
     max-width: 80%;
   }
@@ -93,8 +174,33 @@
     max-width: 100%;
   }
 }
+@media screen and (max-width: 820px) {
+  .home_parent_div {
+    height: 170vh;
+  }
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (max-height: 1280px) {
+  .home_parent_div {
+    height: 90vh;
+  }
+  .home_unleash_p {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 800px) and (max-height: 719px) {
+  .yourEmotionMatter_photo {
+    margin-left: 10px;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+
+  .home_parent_div {
+    height: 150vh;
+  }
   .home_unleash_p {
     font-size: 40px;
     margin-top: 20px;
@@ -105,7 +211,49 @@
     max-width: 100%;
   }
 }
-@media screen and (max-width: 712px) {
+@media screen and (max-width: 782px) and (max-height: 707px) {
+  .home_parent_div {
+    height: 165vh;
+  }
+}
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+  .home_parent_div {
+    height: 115vh;
+  }
+}
+@media screen and (max-width: 768px) and (max-height: 707px) {
+  .home_parent_div {
+    height: 160vh;
+  }
+  .yourEmotionMatter_photo {
+    margin-left: 10px;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+}
+@media screen and (max-width: 712px) and (max-height: 1138px) {
+  .home_parent_div {
+    height: 90vh;
+  }
+
+  .home_unleash_p {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 712px) and (max-height: 707px) {
+  .home_parent_div {
+    height: 145vh;
+  }
+  .yourEmotionMatter_photo {
+    margin-left: 10px;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+
   .home_unleash_p {
     font-size: 36px;
     margin-top: 20px;
@@ -135,7 +283,20 @@
     margin-left: -90px;
   }
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 640px) and (max-height: 360px) {
+  .home_parent_div {
+    height: 280vh;
+  }
+}
+@media screen and (max-width: 600px) and (max-height: 1024px) {
+  .home_parent_div {
+    height: 90vh;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+
   .home_unleash_p {
     font-size: 30px;
     margin-top: 20px;
@@ -146,36 +307,126 @@
     max-width: 100%;
   }
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) and (max-height: 707px) {
   .home_parent_div {
+    height: 130vh;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+
+  .home_unleash_p {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .tiffany_photo {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 587px) and (max-height: 707px) {
+  .home_parent_div {
+    height: 135vh;
   }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 540px) and (max-height: 707px) {
+  .yourEmotionMatter_photo {
+    margin-left: 10px;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+  .home_parent_div {
+    height: 130vh;
+  }
+}
+@media screen and (max-width: 540px) and (max-height: 720px) {
+  .home_parent_div {
+    height: 130vh;
+  }
+}
+
+@media screen and (max-width: 470px) and (max-height: 707px) {
+  .home_parent_div {
+    height: 120vh;
+  }
   .home_icon_div {
     max-width: 100%;
     font-size: 16px;
-  }
-  .media_link {
-    margin-left: -90px;
-    gap: 10px;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .yourEmotionMatter_photo {
-    width: 80px;
-  }
-  .home_icon_div {
     font-size: 14px;
     padding: 0;
   }
-  .media_link {
-    margin-left: 0px;
-    gap: 8px;
+
+  .yourEmotionMatter_photo {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 430px) and (max-height: 707px) {
+  .home_parent_div {
+    height: 115vh;
+  }
+  .yourEmotionMatter_photo {
+    margin-left: 10px;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+}
+@media screen and (max-width: 414px) and (max-height: 896px) {
+  .home_parent_div {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 414px) and (max-height: 707px) {
+  .home_parent_div {
+    height: 115vh;
+  }
+  .yourEmotionMatter_photo {
+    margin-left: 10px;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+}
+@media screen and (max-width: 412px) and (max-height: 707px) {
+  .home_parent_div {
+    height: 115vh;
+  }
+  .yourEmotionMatter_photo {
+    margin-left: 10px;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+}
+@media screen and (max-width: 412px) and (max-height: 823px) {
+  .home_parent_div {
+    height: 105vh;
+  }
+}
+@media screen and (max-width: 400px) and (max-height: 707px) {
+  .home_parent_div {
+    height: 115vh;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+  .yourEmotionMatter_photo {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 390px) and (max-height: 844px) {
+  .home_parent_div {
+    height: 105vh;
   }
 }
 @media screen and (max-width: 384px) {
+  .home_parent_div {
+    height: 90vh;
+  }
   .home_unleash_p {
     font-size: 22px;
     margin-top: 20px;
@@ -186,11 +437,28 @@
     max-width: 100%;
   }
 }
-
-@media screen and (max-width: 360px) {
-  .yourEmotionMatter_photo {
-    width: 70px;
+@media screen and (max-width: 384px) and (max-height: 640px) {
+  .home_parent_div {
+    height: 110vh;
   }
+}
+@media screen and (max-width: 375px) and (max-height: 667px) {
+  .home_parent_div {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 360px) and (max-height: 640px) {
+  .yourEmotionMatter_photo {
+    margin-left: 10px;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+  .home_parent_div {
+    height: 110vh;
+  }
+
   .home_unleash_p {
     font-size: 26px;
     margin-top: 20px;
@@ -199,6 +467,17 @@
 
   .tiffany_photo {
     max-width: 100%;
+  }
+}
+@media screen and (max-width: 360px) and (max-height: 740px) {
+  .home_parent_div {
+    height: 110vh;
+  }
+
+  .home_unleash_p {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 }
 
@@ -215,7 +494,14 @@
     gap: 5px;
   }
 }
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 280px) and (max-height: 707px) {
+  .home_parent_div {
+    height: 90vh;
+  }
+  .home_icon_grid_div {
+    margin-top: -70px;
+  }
+
   .home_unleash_p {
     font-size: 21px;
     margin-top: 20px;

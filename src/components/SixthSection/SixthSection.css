@@ -1,5 +1,7 @@
 .sixthSection_parent_div {
-  background-color: #eee;
+  /* background-color: #eee; */
+  /* background-color: rgb(235, 235, 235); */
+  background-color: rgb(235, 235, 235);
   padding: 10px;
 }
 .sixthSection_child-div {
@@ -8,13 +10,31 @@
   margin-top: 50px;
 }
 .sixthSection-p {
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 10px;
 }
 .sixthSection_tiffany_p {
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 10px;
 }
 .sixthSection_why_because {
-  font-size: 22px;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+.here {
+  color: blue;
+}
+@media screen and (max-width: 280px) {
+  .sixthSection-p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .sixthSection_tiffany_p {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .sixthSection_why_because {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
 }

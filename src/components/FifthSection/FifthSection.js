@@ -6,10 +6,9 @@ const FifthSection = () => {
     <div className="fifth_section_parent_div">
       <h4 className="testimonials">Testimonials</h4>
       <div className="fifth_section_grid_div">
-        <div>
-          <p className="testimonial_p">Testimonial #1</p>
+        <div className="testimonial_one_div">
+          <p className="testimonial_p">Testimonial </p>
           <div className="testimonial_one_parent_div">
-            <div className="testimonial_blank_div"></div>
             <p>
               I reached out for help because I was in a toxic friendship.
               Because of how depressed I was I stayed in it even though I was
@@ -30,10 +29,9 @@ const FifthSection = () => {
             </p>
           </div>
         </div>
-        <div>
-          <p className="testimonial_p">Testimonial #2</p>
+        <div className="testimonial_two_div">
+          <p className="testimonial_p">Testimonial </p>
           <div className="testimonial_two_parent_div">
-            <div className="testimonial_blank_div"></div>
             <p>
               I was living with my ex and kids’ mother while she has moved on
               with another man. I didn’t want to be there although I still had
@@ -54,10 +52,9 @@ const FifthSection = () => {
             </p>
           </div>
         </div>
-        <div>
-          <p className="testimonial_p">Testimonial #3</p>
+        <div className="testimonial_three_div">
+          <p className="testimonial_p">Testimonial </p>
           <div className="testimonial_three_parent_div">
-            <div className="testimonial_blank_div"></div>
             <p>
               I caught my girlfriend cheating. I was frustrated because I didn’t
               know how to bring up the fact that I saw the text messages.
