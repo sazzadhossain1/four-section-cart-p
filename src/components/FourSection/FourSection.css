@@ -151,6 +151,60 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+  .tiffany_logo_div {
+    gap: 10px;
+  }
+
+  .logo_one {
+    width: 20%;
+
+    margin-bottom: 40px;
+  }
+  .logo_two {
+    width: 50%;
+    height: 170px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 912px) and (max-height: 1368px) {
+  .tiffany_logo_div {
+    gap: 10px;
+  }
+
+  .logo_one {
+    width: 20%;
+
+    margin-bottom: 40px;
+  }
+  .logo_two {
+    width: 50%;
+    height: 170px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .four_section_cart_p_one {
+    padding: 25px 15px;
+    font-size: 17px;
+    width: 100%;
+  }
+  .four_section_cart_p_two {
+    padding: 25px 15px;
+    font-size: 17px;
+    width: 100%;
+  }
+  .four_section_cart_p_three {
+    padding: 25px 15px;
+    font-size: 17px;
+    width: 100%;
+  }
+  .four_section_cart_p_four {
+    padding: 25px 15px;
+    font-size: 17px;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 800px) and (max-width: 1280px) {
   .sectionFour_tiffany_photo {
     max-width: 400px;
@@ -161,7 +215,22 @@
     max-height: 400px;
     margin-top: 20px;
   }
+  .tiffany_logo_div {
+    gap: 10px;
+  }
+
+  .logo_one {
+    width: 30%;
+    margin-bottom: 40px;
+  }
+
+  .logo_two {
+    width: 50%;
+    height: 200px;
+    margin-right: 10px;
+  }
 }
+
 @media screen and (max-width: 712px) and (max-width: 1138px) {
   .sectionFour_tiffany_photo {
     max-width: 350px;
@@ -171,6 +240,21 @@
     max-width: 350px;
     max-height: 350px;
     margin-top: 20px;
+  }
+
+  .tiffany_logo_div {
+    gap: 10px;
+  }
+
+  .logo_one {
+    width: 30%;
+
+    margin-bottom: 40px;
+  }
+  .logo_two {
+    width: 60%;
+    height: 200px;
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -188,6 +272,20 @@
     max-height: 350px;
     margin-top: 20px;
   }
+
+  .tiffany_logo_div {
+    gap: 10px;
+  }
+
+  .logo_one {
+    width: 30%;
+    margin-bottom: 40px;
+  }
+  .logo_two {
+    width: 65%;
+    max-height: 100px;
+    margin-right: 10px;
+  }
 }
 @media screen and (max-width: 400px) and (max-height: 700px) {
   .sectionFour_tiffany_photo {
@@ -199,6 +297,19 @@
     max-height: 350px;
     margin-top: 20px;
   }
+
+  .tiffany_logo_div {
+    gap: 10px;
+  }
+
+  .logo_one {
+    width: 30%;
+
+    margin-bottom: 40px;
+  }
+  .logo_two {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 390px) {
   .logo_one {
@@ -209,6 +320,54 @@
     max-width: 200px;
   }
 }
+@media screen and (max-width: 390px) and (max-height: 844px) {
+  .tiffany_logo_div {
+    gap: 10px;
+  }
+
+  .logo_one {
+    width: 100px;
+
+    margin-bottom: 40px;
+  }
+  .logo_two {
+    width: 100%;
+    height: 60px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 390px) and (max-height: 640px) {
+  .tiffany_logo_div {
+    gap: 10px;
+  }
+
+  .logo_one {
+    width: 100px;
+
+    margin-bottom: 40px;
+  }
+  .logo_two {
+    width: 100%;
+    height: 60px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 375px) and (max-height: 667px) {
+  .tiffany_logo_div {
+    gap: 10px;
+  }
+
+  .logo_one {
+    width: 100px;
+
+    margin-bottom: 40px;
+  }
+  .logo_two {
+    width: 100%;
+    height: 60px;
+    margin-right: 10px;
+  }
+}
 @media screen and (max-width: 360px) and (max-width: 640px) {
   .sectionFour_tiffany_photo {
     max-width: 300px;
@@ -217,6 +376,20 @@
   .tiffany_bio_photo {
     max-width: 300px;
     max-height: 300px;
+  }
+  .tiffany_logo_div {
+    gap: 10px;
+  }
+
+  .logo_one {
+    max-width: 100%;
+
+    margin-bottom: 40px;
+  }
+  .logo_two {
+    max-width: 100%;
+    max-height: 60px;
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 270px) {
