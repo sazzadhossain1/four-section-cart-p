@@ -7,7 +7,7 @@ const FifthSection = () => {
       <h4 className="testimonials">Testimonials</h4>
       <div className="fifth_section_grid_div">
         <div className="testimonial_one_div">
-          <p className="testimonial_p">Testimonial </p>
+          <p className="testimonial_p">Testimonial 1</p>
           <div className="testimonial_one_parent_div">
             <p>
               I reached out for help because I was in a toxic friendship.
@@ -30,7 +30,7 @@ const FifthSection = () => {
           </div>
         </div>
         <div className="testimonial_two_div">
-          <p className="testimonial_p">Testimonial </p>
+          <p className="testimonial_p">Testimonial 2</p>
           <div className="testimonial_two_parent_div">
             <p>
               I was living with my ex and kids’ mother while she has moved on
@@ -53,7 +53,7 @@ const FifthSection = () => {
           </div>
         </div>
         <div className="testimonial_three_div">
-          <p className="testimonial_p">Testimonial </p>
+          <p className="testimonial_p">Testimonial 3</p>
           <div className="testimonial_three_parent_div">
             <p>
               I caught my girlfriend cheating. I was frustrated because I didn’t

@@ -2,12 +2,16 @@
   font-size: 33px;
   font-weight: 500;
   max-width: 80%;
-
-  margin-left: 60px;
+  margin-left: 120px;
+}
+.three_section_h4_two {
+  font-size: 33px;
+  font-weight: 500;
+  max-width: 80%;
+  margin-bottom: 20px;
 }
 .three_section_p {
-  font-size: 17px;
-  margin-bottom: 10px;
+  font-size: 19px;
 }
 
 /* ---------- */
@@ -18,33 +22,38 @@
 }
 .three_section_child_div {
   display: grid;
-
+  gap: 100px;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   text-align: left;
-  margin-top: 35px;
-  background-color: #ebebff;
-  padding: 50px 30px;
+
+  /* background-color: #ebebff; */
+  background-color: yellow;
+  padding: 100px 30px;
+  height: 70vh;
 }
 .three_section_child_second_div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   text-align: left;
-  gap: 10px;
-  background-color: rgb(235, 235, 235);
+  gap: 100px;
+  /* background-color: rgb(235, 235, 235); */
 
   padding: 50px 30px;
 }
+.heroSectionPhoto {
+  border: 5px solid black;
+}
 .three_section_p_div {
-  max-width: 90%;
+  max-width: 100%;
 }
 .your_support_div {
   text-align: center;
   margin: auto;
-  margin-top: 35px;
-  max-width: 85%;
-  padding: 20px 0px;
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 .three_section_child_div p {
   line-height: 35px;

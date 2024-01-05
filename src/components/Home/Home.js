@@ -20,11 +20,18 @@ const Home = () => {
           src={yourEmotionMatter}
           alt=""
         />
+
         <div className="home_icon_grid_div">
           <div className="heme_Unleash_div">
-            <p className="home_unleash_p">
+            {/* <p className="home_unleash_p">
               Unleash Your Hero Within. <br /> Embrace Your Worth, Stand Tall,{" "}
               <br /> and Remember, You Matter Regardless.
+            </p> */}
+            <p className="home_unleash_p">
+              Winners Know The Best Way To Win The Game Is To Have A Game Plan.
+              Let Life Coach <br /> Tiffany J. Norwood, CNLP, CEQP, Empower You
+              To Be Successful In All Areas Of Your Life With “The Why You
+              Matter Playbook.”
             </p>
             <Link target="_blank" to="https://stan.store/youremotionsmatter">
               <button className="home_start_btn">
@@ -32,15 +39,23 @@ const Home = () => {
               </button>
             </Link>
           </div>
-          <img className="tiffany_photo" src={tiffanyPhoto} alt="" />
+
+          <div>
+            <img className="tiffany_photo" src={tiffanyPhoto} alt="" />
+            <p className="tiffany_photo_text">
+              Life Coach Tiffany J. Norwood, CNLP, CEQP is spreading awareness
+              around Emotional Intelligence with Juliet Hahn of Your Next Stop
+              (YNS) Podcast, Live with the NFL Thread during Super Bowl 57.
+            </p>
+          </div>
         </div>
       </div>
 
       <TwoSection></TwoSection>
       <ThreeSection></ThreeSection>
       <SectionFour></SectionFour>
-      {/* <FifthSection></FifthSection>
-      <SixthSection></SixthSection> */}
+      <FifthSection></FifthSection>
+      <SixthSection></SixthSection>
     </div>
   );
 };

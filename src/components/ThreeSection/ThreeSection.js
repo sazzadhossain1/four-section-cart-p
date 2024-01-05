@@ -1,6 +1,7 @@
 import React from "react";
 import "./ThreeSection.css";
 import { Link } from "react-router-dom";
+import heroSectionPhoto from "../../accets/heroSectionPhoto/heroSectionPhoto.JPG";
 
 const ThreeSection = () => {
   return (
@@ -23,10 +24,11 @@ const ThreeSection = () => {
       </div>
 
       <div className="three_section_child_second_div">
-        <h4 className="three_section_h4">
-          With the “Why You Matter Playbook” <br /> you will learn:
-        </h4>
+        <img className="heroSectionPhoto" src={heroSectionPhoto} alt="" />
         <div className="three_section_p_div">
+          <h4 className="three_section_h4_two">
+            With the “Why You Matter Playbook” <br /> you will learn:
+          </h4>
           <p className="three_section_p">
             • To effectively identify, understand, & manage all valuable
             feelings
@@ -68,19 +70,18 @@ const ThreeSection = () => {
       </div>
       <div className="your_support_div">
         <p className="three_section_p">
-          Your support is{" "}
+          Your support is here Reach out to me at&nbsp;
+          <Link className="tiffany_email">tiffany@youremotionsmatter.com</Link>,
+          via social media or book a one on one by clicking
           <Link
             className="here"
             to="https://stan.store/youremotionsmatter"
             target="_blank"
           >
-            here
-          </Link>
-          . Reach out to me at&nbsp;
-          <Link className="tiffany_email">tiffany@youremotionsmatter.com</Link>,
-          via social media or book a one on one by clicking here to share your
-          challenges & frustrations so I may customize your plan utilizing my
-          “Why You Matter Playbook.”
+            here.
+          </Link>{" "}
+          to <br /> share your challenges & frustrations so I may customize your
+          plan utilizing my “Why You Matter Playbook.”
         </p>
         <h5 className="tiffany_j">– Tiffany J. Norwood, CNLP, CEQP</h5>
       </div>

@@ -1,10 +1,14 @@
+.sectionFour_main_div {
+  background-color: skyblue;
+}
 .four_section_parent_div {
   /* background-color: #f7f5f5; */
-  background-color: rgb(235, 235, 235);
-  padding: 20px;
+  /* background-color: rgb(235, 235, 235); */
+  /* background-color: #ebebff; */
+  padding: 70px 0px;
 }
 .why_i_do {
-  margin-top: 35px;
+  margin-top: 0px;
   margin-bottom: -35px;
   font-size: 35px;
   font-weight: 500;
@@ -17,52 +21,41 @@
   border: 3px solid black;
 }
 .four_section_grid_div {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-
-  gap: 10px;
-  width: 85%;
-  margin: auto;
   margin-top: 50px;
+  background-color: rgb(190, 235, 253);
 }
 .four_section_cart_p_one {
-  /* text-align: left; */
-  /* background-color: rgb(238, 237, 237); */
-  background-color: white;
-
-  padding: 25px 35px;
-  border-radius: 10px;
+  padding: 40px 100px;
   font-size: 17px;
+  width: 85%;
+  margin: auto;
 }
 .four_section_cart_p_two {
-  background-color: rgb(209, 209, 255);
-
-  padding: 25px 35px;
-  border-radius: 10px;
+  padding: 40px 100px;
   font-size: 17px;
+  width: 85%;
+  margin: auto;
 }
 .four_section_cart_p_three {
-  background-color: white;
-
-  padding: 25px 35px;
-  border-radius: 10px;
+  padding: 40px 100px;
   font-size: 17px;
+  width: 85%;
+  margin: auto;
 }
 .four_section_cart_p_four {
-  background-color: rgb(209, 209, 255);
-
-  padding: 25px 35px;
-  border-radius: 10px;
+  padding: 40px 100px;
   font-size: 17px;
+  width: 85%;
+  margin: auto;
 }
 .tiffany_J_p {
-  width: 100%;
+  width: 90%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 30px;
   line-height: 30px;
   font-size: 17px;
-  /* text-align: left; */
+  text-align: center;
   /* background-color: rgb(238, 237, 237); */
 
   padding: 25px 40px;
@@ -70,54 +63,59 @@
 }
 
 .tiffany_bio_parent_div {
-  background-color: #d9d9fc;
+  /* background-color: #d9d9fc; */
+  background-color: white;
 }
 
 .tiffany_bio_div {
   display: flex;
-  max-width: 100%;
+  max-width: 80%;
   margin: auto;
 }
 .tiffany_bio_photo {
-  max-width: 23%;
+  max-width: 450px;
+  border: 3px solid navy;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .tiffany_logo_div {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
   margin-top: 50px;
 }
 
 .logo_one {
-  max-width: 100px;
-  max-height: 100px;
+  width: 7%;
+  height: 7%;
+  margin-bottom: 40px;
 }
 .logo_two {
-  max-width: 100%;
-  max-height: 100px;
+  width: 20%;
+  height: 100px;
+  margin-bottom: 40px;
 }
 @media screen and (max-width: 1536px) {
   .four_section_grid_div {
-    width: 95%;
-    gap: 20px;
   }
   .tiffany_J_p {
     width: 90%;
   }
 
   .tiffany_bio_parent_div {
-    background-color: #d9d9fc;
+    background-color: white;
   }
 
   .tiffany_bio_div {
     display: flex;
-    max-width: 100%;
+    max-width: 90%;
     margin: auto;
   }
   .tiffany_bio_photo {
-    max-width: 23%;
+    max-width: 450px;
+    max-height: 450px;
   }
 
   .tiffany_logo_div {
@@ -125,14 +123,16 @@
     margin-top: 50px;
   }
 
-  .logo_one {
-    max-width: 88%;
-    max-height: 88px;
+  /* .logo_one {
+    width: 7%;
+    height: 7%;
+    margin-bottom: 40px;
   }
   .logo_two {
-    max-width: 88%;
-    max-height: 88px;
-  }
+    width: 20%;
+    height: 100px;
+    margin-bottom: 40px;
+  } */
 }
 @media screen and (max-width: 1350px) {
   .four_section_grid_div {
@@ -151,9 +151,53 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (max-width: 800px) and (max-width: 1280px) {
+  .sectionFour_tiffany_photo {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .tiffany_bio_photo {
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 712px) and (max-width: 1138px) {
+  .sectionFour_tiffany_photo {
+    max-width: 350px;
+    max-height: 350px;
+  }
+  .tiffany_bio_photo {
+    max-width: 350px;
+    max-height: 350px;
+    margin-top: 20px;
+  }
+}
 @media screen and (max-width: 700px) {
   .four_section_grid_div {
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 600px) and (max-width: 1024px) {
+  .sectionFour_tiffany_photo {
+    max-width: 350px;
+    max-height: 350px;
+  }
+  .tiffany_bio_photo {
+    max-width: 350px;
+    max-height: 350px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 400px) and (max-height: 700px) {
+  .sectionFour_tiffany_photo {
+    max-width: 350px;
+    max-height: 350px;
+  }
+  .tiffany_bio_photo {
+    max-width: 350px;
+    max-height: 350px;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 390px) {
@@ -163,6 +207,16 @@
   }
   .logo_two {
     max-width: 200px;
+  }
+}
+@media screen and (max-width: 360px) and (max-width: 640px) {
+  .sectionFour_tiffany_photo {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .tiffany_bio_photo {
+    max-width: 300px;
+    max-height: 300px;
   }
 }
 @media screen and (max-width: 270px) {
@@ -175,5 +229,16 @@
   }
   .logo_two {
     margin: auto;
+  }
+}
+@media screen and (max-width: 320px) and (max-width: 658px) {
+  .sectionFour_tiffany_photo {
+    max-width: 250px;
+    max-height: 250px;
+  }
+  .tiffany_bio_photo {
+    max-width: 250px;
+    max-height: 250px;
+    margin-top: 20px;
   }
 }

@@ -1,13 +1,16 @@
 .sixthSection_parent_div {
   /* background-color: #eee; */
   /* background-color: rgb(235, 235, 235); */
-  background-color: rgb(235, 235, 235);
+  /* background-color: rgb(235, 235, 235); */
+
+  background-color: #eee;
   padding: 10px;
 }
 .sixthSection_child-div {
   width: 75%;
   margin: auto;
   margin-top: 50px;
+  padding: 100px 0px;
 }
 .sixthSection-p {
   font-size: 17px;

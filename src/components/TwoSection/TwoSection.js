@@ -6,7 +6,15 @@ const TwoSection = () => {
   return (
     <div className="two_section_parent_div">
       <div className="two_section_grid_div">
-        <img src={twoSectionPhoto} alt="" />
+        <div>
+          <img src={twoSectionPhoto} alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            velit voluptatibus nostrum facere neque numquam expedita, dolores
+            eaque pariatur. Molestias quos, in accusamus voluptatibus rerum at,
+            est, suscipit perferendis reiciendis quibusdam cum.
+          </p>
+        </div>
         <div className="two_section_child_div">
           <p>
             If you are an athlete, former athlete, organization, team, business,

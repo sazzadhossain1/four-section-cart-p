@@ -7,7 +7,7 @@ import logoTwo from "../../accets/tifany_logo/logoTwo.png";
 
 const SectionFour = () => {
   return (
-    <div>
+    <div className="sectionFour_main_div">
       <div className="four_section_parent_div">
         <div>
           <h4 className="why_i_do">Why I Do What I Do</h4>
@@ -82,6 +82,7 @@ const SectionFour = () => {
             end.{" "}
           </p>
         </div>
+
         <div className="tiffany_logo_div">
           <img className="logo_one" src={logoOne} alt="" />
           <img className="logo_two" src={logoTwo} alt="" />
