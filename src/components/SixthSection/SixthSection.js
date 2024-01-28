@@ -7,8 +7,8 @@ const SixthSection = () => {
     <div className="sixthSection_parent_div">
       <div className="sixthSection_child-div">
         <p className="sixthSection-p">
-          Your support is here Reach out to me at
-          tiffany@youremotionsmatter.com, via social media or book a one on one
+          Your support is here. Reach out to me at
+          tiffany@youremotionsmatter.com, via social media, or book a one on one
           by clicking{" "}
           <Link
             className="here"
@@ -16,10 +16,10 @@ const SixthSection = () => {
             target="_blank"
           >
             {" "}
-            here.
+            here
           </Link>{" "}
           to <br /> share your challenges & frustrations so I may customize your
-          plan utilizing our “Why You Matter Playbook.”
+          plan utilizing the “Why You Matter Playbook.”
         </p>
         <p className="sixthSection_tiffany_p">
           – Tiffany J. Norwood, CNLP, CEQP

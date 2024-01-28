@@ -7,7 +7,7 @@ const ThreeSection = () => {
   return (
     <div className="three_section_main_div">
       <div className="three_section_child_div">
-        <h4 className="three_section_h4">A few facts about your emotions:</h4>
+        <h4 className="three_section_h4">A Few Facts About Your Emotions:</h4>
         <div className="three_section_p_div">
           <p className="three_section_p">
             • Your emotions drive your decision making & they cloud your
@@ -70,18 +70,18 @@ const ThreeSection = () => {
       </div>
       <div className="your_support_div">
         <p className="three_section_p">
-          Your support is here Reach out to me at&nbsp;
+          Your support is here. Reach out to me at&nbsp;
           <Link className="tiffany_email">tiffany@youremotionsmatter.com</Link>,
-          via social media or book a one on one by clicking
+          via social media, or book a one on one by clicking&nbsp;
           <Link
             className="here"
             to="https://stan.store/youremotionsmatter"
             target="_blank"
           >
-            here.
-          </Link>{" "}
+            here&nbsp;
+          </Link>
           to <br /> share your challenges & frustrations so I may customize your
-          plan utilizing my “Why You Matter Playbook.”
+          plan utilizing the “Why You Matter Playbook.”
         </p>
         <h5 className="tiffany_j">– Tiffany J. Norwood, CNLP, CEQP</h5>
       </div>

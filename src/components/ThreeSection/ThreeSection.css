@@ -12,6 +12,7 @@
 }
 .three_section_p {
   font-size: 19px;
+  margin-bottom: 12px;
 }
 
 /* ---------- */
@@ -28,9 +29,9 @@
   text-align: left;
 
   /* background-color: #ebebff; */
-  background-color: yellow;
+  /* background-color: yellow; */
+  /* background-color: #32cd32; */
   padding: 100px 30px;
-  height: 70vh;
 }
 .three_section_child_second_div {
   display: grid;
@@ -38,8 +39,8 @@
   align-items: center;
   text-align: left;
   gap: 100px;
-  /* background-color: rgb(235, 235, 235); */
-
+  /* background-color: #32cd32; */
+  background-color: #98afc7;
   padding: 50px 30px;
 }
 .heroSectionPhoto {
@@ -49,6 +50,8 @@
   max-width: 100%;
 }
 .your_support_div {
+  /* background-color: #32cd32; */
+  background-color: #98afc7;
   text-align: center;
   margin: auto;
   max-width: 100%;
@@ -63,7 +66,7 @@
   font-size: 18px;
 }
 .tiffany_email {
-  color: blue;
+  color: black;
 }
 .tiffany_j {
   font-size: 19px;
@@ -85,6 +88,14 @@
     gap: 50px;
   }
 }
+@media screen and (max-width: 1520px) {
+  .three_section_h4_two {
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .three_section_h4 {
     margin-left: 0px;

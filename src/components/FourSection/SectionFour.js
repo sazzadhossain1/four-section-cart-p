@@ -36,7 +36,7 @@ const SectionFour = () => {
             <p className="four_section_cart_p_three">
               I learned that I could brilliantly become more in-tune with myself
               by tapping into my own feelings for guidance and for help to make
-              the right choices, hence the definition of emotional intelligence.
+              the right choices, hence the definition of Emotional Intelligence.
               I know now that we have all the power and brilliance already
               inside of us that can easily be tapped into when we are open,
               conscious, & willing. It was enlightening to learn that my having
@@ -47,7 +47,7 @@ const SectionFour = () => {
             <p className="four_section_cart_p_four">
               It's time to get in-tune with yourself &/or to support those you
               serve or who serve you. I offer an eight-step process called the
-              Why You Matter Playbook. It is a 6-week coaching and
+              Why You Matter Playbook. It is a 6-week interactive and
               knowledge-based course, in-person or through a group setting, that
               helps you understand yourself, your emotions, & use what you learn
               as new information to help you move toward the desired outcomes

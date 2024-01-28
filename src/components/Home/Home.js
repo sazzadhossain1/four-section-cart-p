@@ -28,10 +28,12 @@ const Home = () => {
               <br /> and Remember, You Matter Regardless.
             </p> */}
             <p className="home_unleash_p">
-              Winners Know The Best Way To Win The Game Is To Have A Game Plan.
-              Let Life Coach <br /> Tiffany J. Norwood, CNLP, CEQP, Empower You
-              To Be Successful In All Areas Of Your Life With “The Why You
-              Matter Playbook.”
+              Winners Know Having A Game Plan Is The Best Way To Win The Game.
+            </p>
+            <p className="home_let_life_p">
+              Let Life Coach Tiffany J. Norwood, CNLP, CEQP, Empower You To Be
+              Successful In All Areas Of Your Life With The “Why You Matter
+              Playbook.”
             </p>
             <Link target="_blank" to="https://stan.store/youremotionsmatter">
               <button className="home_start_btn">
