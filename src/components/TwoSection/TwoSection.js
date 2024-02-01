@@ -8,7 +8,7 @@ const TwoSection = () => {
     <div className="two_section_parent_div">
       <div className="two_section_grid_div">
         <div>
-          <img src={twoSectionPhoto} alt="" />
+          <img className="twoSectionPhoto" src={twoSectionPhoto} alt="" />
           <p className="two_section_click_here_p">
             <Link
               className="athletes_click_here"
